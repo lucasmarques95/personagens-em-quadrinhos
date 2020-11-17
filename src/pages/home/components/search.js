@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from 'react-redux';
 import { findComics } from '../actions';
 import Autocomplete from 'react-autocomplete';
+import hero from '../../../img/hero.svg';
 
 class SearchChar extends Component {
     render() {
@@ -28,8 +29,10 @@ class SearchChar extends Component {
                     )}
                     renderInput={(props) => (
                         <React.Fragment>
+                            
                             <form className="wrapper-search"
                                 onSubmit={(event) => { event.preventDefault(); this.props.findComics(this.props.char) }}>
+                                <img src={hero} />
                                 <input {...props} placeholder="Pesquise aqui seu herói favorito" />
                             </form>
                         </React.Fragment>

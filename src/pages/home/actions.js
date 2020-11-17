@@ -32,7 +32,7 @@ export const findComics = (char) => {
             } else {
                 characterId = char[0].id;
             }
-            HttpGet('/v1/public/characters/' + characterId + '/comics?hasDigitalIssue=true&limit=15')
+            HttpGet('/v1/public/characters/' + characterId + '/comics?hasDigitalIssue=true&limit=30')
                 .then(result => {
                     if (result.status === 200 && result.data.data.results.length >= 1) {
                         dispatch({
