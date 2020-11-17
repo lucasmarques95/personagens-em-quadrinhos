@@ -1,4 +1,4 @@
-#Sobre o Projeto</h1>
+# Sobre o Projeto</h1>
 É um sistema web feito em React.js consumindo api da marvel. O projeto consiste em pesquisar
 o nome do seu herói favorito e ele retornará 30 revistinhas do personagem escolhido,
 clicando na imagem será redirecionado para o site da marvel onde pode conferir o resultado.
