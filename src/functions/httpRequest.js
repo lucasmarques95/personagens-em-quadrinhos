@@ -9,7 +9,6 @@ class HttpRequest {
             //CHAVE DE ACESSO
             params: {
                 "apikey": "7edb1622ef4343dd804c55d510932e87",
-                "limit": "100"
             },
             timeout: 10000,
             method: 'get',
