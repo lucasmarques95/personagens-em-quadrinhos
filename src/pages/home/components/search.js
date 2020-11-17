@@ -32,7 +32,7 @@ class SearchChar extends Component {
                             
                             <form className="wrapper-search"
                                 onSubmit={(event) => { event.preventDefault(); this.props.findComics(this.props.char) }}>
-                                <img src={hero} alt="logo" />
+                                <img src={hero} alt="hero"/>
                                 <input {...props} placeholder="Pesquise aqui seu herói favorito" />
                             </form>
                         </React.Fragment>
