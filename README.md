@@ -12,3 +12,19 @@ git clone, cole o HTTPS e execute.
 Abra o prompt de comando, pecorra até a pasta onde está o projeto e digite e execute o comando 
 npm install, esté comando irá baixar todas as dependências do projeto, após o processo, digite 
 e execute o comando npm start.
+
+
+Clone o projeto usando o HTTPS fornecido pelo github. Em seu computador, crie uma pasta onde será armazenado o projeto. Nesta pasta, abra o terminal do git e digite:
+```
+git clone https://github.com/lucasmarques95/personagens-em-quadrinhos.git
+
+```
+
+Abra o prompt de comando, percorra até a pasta onde está o projeto e digite o seguinte comando para instalar as dependências do projeto:
+```
+npm install
+```
+Após finalizar o processo, digite:
+```
+npm start
+```
