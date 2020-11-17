@@ -31,10 +31,6 @@ class SearchChar extends Component {
                             <form className="wrapper-search"
                                 onSubmit={(event) => { event.preventDefault(); this.props.findComics(this.props.char) }}>
                                 <input {...props} placeholder="Pesquise aqui seu herói favorito" />
-                                
-                                <a href="#" className="logo" title="Api Marvel">
-                                
-                                </a>
                             </form>
                         </React.Fragment>
                     )}
