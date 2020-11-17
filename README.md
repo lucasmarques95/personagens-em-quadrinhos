@@ -24,7 +24,3 @@ Após finalizar o processo, digite:
 npm start
 ```
 
-
-![dev](https://www.flaticon.com/svg/static/icons/svg/1084/1084772.svg)
-
-
