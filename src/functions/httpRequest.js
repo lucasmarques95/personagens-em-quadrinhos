@@ -5,7 +5,7 @@ import { ON_LOADING, ON_LOADED } from '../globalRedux/types';
 class HttpRequest {
     static instance() {
         const instance = axios.create({
-            baseURL: 'https://gateway.marvel.com',
+            baseURL: 'https://gateway.marvel.com:443',
             //CHAVE DE ACESSO
             params: {
                 "apikey": "7edb1622ef4343dd804c55d510932e87",
